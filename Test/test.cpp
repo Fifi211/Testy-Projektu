@@ -19,20 +19,20 @@ TEST(TestManagerTest, DisplayTests) {
 TEST(TestManagerTest, GetTestChoice) {
     TestManager testManager;
 
-    // symulacja wprowadzenia odpowiednich danych przez u¿ytkownika
+    // symulacja wprowadzenia odpowiednich danych przez uzytkownika
     std::istringstream input("1");
     std::cin.rdbuf(input.rdbuf());
     int choice = testManager.getTestChoice();
 
-    // czy wybór u¿ytkownika zosta³ poprawnie obs³u¿ony
+    // czy wybÃ³r uzytkownika zostal poprawnie obsluzony
     EXPECT_EQ(choice, 1);
 }
 
-// testuje funkcjê runTest z klasy TestManager
+// testuje funkcje runTest z klasy TestManager
 TEST(TestManagerTest, RunTest) {
     TestManager testManager;
 
-    // symulacja wprowadzenia odpowiednich danych przez u¿ytkownika (6)
+    // symulacja wprowadzenia odpowiednich danych przez uzytkownika
     std::istringstream input("6");
     std::cin.rdbuf(input.rdbuf());
 

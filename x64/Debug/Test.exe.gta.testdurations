@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\a\source\repos\TestProjekt\x64\Debug\Test.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestManagerTest.DisplayTests" Duration="11" />
+    <TestDuration Test="TestManagerTest.GetTestChoice" Duration="1" />
+    <TestDuration Test="TestManagerTest.RunTest" Duration="14" />
+  </TestDurations>
+</GtaTestDurations>
